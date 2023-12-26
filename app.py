@@ -3,6 +3,7 @@ from flask_bootstrap import Bootstrap
 import random
 
 app = Flask(__name__)
+server=app.server
 app.config['SECRET_KEY'] = 'be3f708d4e087cd44d801a2c878c8a78' 
 bootstrap = Bootstrap(app)
 
